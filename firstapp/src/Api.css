@@ -1,0 +1,33 @@
+.user-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  width: 80%;
+  
+}
+.user-card h4 {
+  color: #005f73;
+  margin-bottom: 5px;
+}
+.user-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+.is_completed {
+  color: green;
+  font-weight: bold;
+}
+.is_not_completed {
+  color: red;
+  font-weight: bold;
+}
